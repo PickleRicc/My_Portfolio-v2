@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 2800px;
+  margin: 3rem auto;
+}
+
+p {
+  line-height: 3rem;
+}
+
+h1 {
+  line-height: 8px;
+}
+
+.contact { 
+  line-height: 3rem;
+}
+
+.nav-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+  }
+}
